@@ -17,27 +17,27 @@ document.addEventListener("DOMContentLoaded", function() {
     const showAllBtn = document.getElementById("showAll");
     
     changeBox1Btn.addEventListener("click", function() {
-      box1.style.backgroundColor = "orange";
-      box1.style.borderColor = "purple";
+      box1.style.backgroundColor = "purple";
+      box1.style.borderColor = "orange";
     });
     
     changeBox2Btn.addEventListener("click", function() {
-      box2.style.backgroundColor = "yellow";
-      box2.style.borderColor = "green";
+      box2.style.backgroundColor = "maroon";
+      box2.style.borderColor = "yellow";
     });
     
     changeBox3Btn.addEventListener("click", function() {
-      box3.style.backgroundColor = "pink";
+      box3.style.backgroundColor = "gray";
       box3.style.borderColor = "red";
     });
     
     changeAllBtn.addEventListener("click", function() {
-      box1.style.backgroundColor = "cyan";
-      box1.style.borderColor = "blue";
-      box2.style.backgroundColor = "cyan";
-      box2.style.borderColor = "blue";
-      box3.style.backgroundColor = "cyan";
-      box3.style.borderColor = "blue";
+      box1.style.backgroundColor = "teal";
+      box1.style.borderColor = "lime";
+      box2.style.backgroundColor = "teal";
+      box2.style.borderColor = "lime";
+      box3.style.backgroundColor = "teal";
+      box3.style.borderColor = "lime";
     });
     
     hideBox1Btn.addEventListener("click", function() {
@@ -60,11 +60,11 @@ document.addEventListener("DOMContentLoaded", function() {
     
     resetColorsBtn.addEventListener("click", function() {
       box1.style.backgroundColor = "red";
-      box1.style.borderColor = "orange";
+      box1.style.borderColor = "black";
       box2.style.backgroundColor = "green";
-      box2.style.borderColor = "yellow";
+      box2.style.borderColor = "pink";
       box3.style.backgroundColor = "blue";
-      box3.style.borderColor = "pink";
+      box3.style.borderColor = "yellow";
     });
     
     showAllBtn.addEventListener("click", function() {
